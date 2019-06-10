@@ -1,0 +1,132 @@
+/********************************************************************
+I declare that my assignment is wholly my own work in accordance with
+Seneca Academic Policy. No part of this assignment has been copied
+manually or electronically from any other source (including web
+sites) except for the information supplied by the WEB222 instructors
+and / or made available in this assignment for my use.
+I also declare that no part of this assignment has been distributed
+to other students.
+Name: Eberechi Ogunedo (117277160)
+Dated: 04/06/2019
+********************************************************************/
+
+
+*{
+    margin:0;
+    padding:0;
+  }
+  .main{
+    background-color:rgb(167, 229, 245);
+    margin:0 auto;
+  }
+  .container{
+    margin: 0 80px;
+  }
+  .titleheader{
+    display: inline-block;
+    width:100%;
+    float: left;
+    padding: 30px 0;
+    margin: 0 auto;
+  }
+  
+  .logo{
+    float:left;
+    width: auto;
+    font-size:16px;
+    font-family:BlinkMacSystemFont;
+  }
+  .navbar{
+    margin-left: 70px;
+    float:left;
+  }
+  .navbar ul li{
+    display: inline-block;
+    margin-right: 15px;
+  }
+  .navbar ul li a{
+    font-weight: bold;
+    font-size:16px;
+    text-align: right;
+    color:black;
+    padding-top: 20px;
+    font-family: Tw Cen MT;
+  }
+  
+  .slider{
+    display:inline-block;
+    width:100%;
+    /*float:left;*/
+    position:relative;
+  }
+  .slider img{
+    max-width:100%;
+    background-repeat:repeat;
+  }
+  
+  .slider .slogan{
+    width:100px;
+    position:absolute;
+    top:40%;
+    bottom:0;
+    left:4%;
+  }
+  
+  .slider .slogan h2{
+    font-size: 25px;
+    colour: #222222;
+    font-family: Tw Cen MT;
+    text-transform:capitalize;
+  }
+  .items .container h3{
+    font-family: Tw Cen MT;
+    font-size:18px;
+    color:#333;
+    text-transform: uppercase;
+    font-weight:500;
+    padding:10px 0;
+    margin-bottom: 20px;
+  }
+  
+  .items{
+    width:25px;
+    height:25px;
+  }
+  .items{
+    width:100%;
+    float: left;
+    display: inline-block;
+    padding:25px;
+  }
+  
+  .items .col-3 img{
+    width:30%;
+  }
+  
+  .items .col-3{
+    width: 75%;
+    float:left;
+    display: inline-block;
+    border-radius: 5px;
+    overflow: hidden;
+    position:relative;
+    margin: 0.5% 25px;
+  }
+  
+  .items a{
+    text-align:centre;
+    font-size:12px;
+    columns: #333;
+  }
+  
+  .items .title{
+    padding: 12px 0;
+  }
+  
+  .items a h4{
+    font-size:14px;
+    padding:7px;
+    line-height:20px;
+    color: #737373;
+  }
+  

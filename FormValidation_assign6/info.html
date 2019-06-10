@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="normalize.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body class="main">
+
+    <header>
+      <h1>Please fill the form below to sign in</h1>
+    </header>
+
+    <section class="rside">        
+      <ul>
+        <li><a href="honesty.html">HONESTY</a></li>
+        <li><a href="info.html">INFO</a></li>
+      </ul>   
+    </section>
+
+    <section class="middle">
+      <form id="signup" method="post" action="https://httpbin.org/post">
+     
+
+        <label for="fName">First name: </label>
+        <input type="text" name="fName" id="fName" required placeholder="Your first name"/>
+        </br>
+        <label for="lastName">Last name: </label>
+        <input type="hidden" name="lastName" id="lastName" required value="Ogunedo"></br>
+        Password: <input type="password" name="password" id="password"/>
+        </br> 
+        Student ID: <input type="hidden" name="studentId"id="studentId" value="Your student ID goes here" value="117277160" required>
+        </br> 
+        <label for="Ed_level">Education Level: </label>
+        <select name="Ed_level" id="Ed_level" size=3>
+          <!-- option tag in select with value empty-->
+          <option value=""> Technical Diploma </option>
+          <option value="" selected> College </option>
+          <option value=""> Diploma </option>
+          <option value=""> Bachelor's Degree </option>
+          <option value=""> Master's Degree    </option>
+          <option value=""> Others </option>
+        </select>
+        <br/>
+
+        <label for="Ed_status">Education Status:</label>    <input type="radio" name="Ed_status" id="status1" value="current" checked/>Currently Enrolled
+        <input type="radio" name="Ed_status" id="status2" value="DNC"/>Did Not Complete
+        <input type="radio" name="Ed_status" id="status3" value="graduated"/>Graduated
+        <br/>
+        <label for="email">E-mail:</label> 
+        <input type="email" name="email" id="email" required="required">
+        </br>
+        Age: <input id="ageid" name="age" type="number"  step="1"/>
+        <br/>
+
+        <div class="buttons">
+          <input type="submit" value="Submit" >
+          <input type="reset"  value="Clear"> 
+        </div>
+ 
+      </form>
+    </section>
+
+    <section class="lside">
+      <div class="errorss"></div>
+    </section>
+   
+    <div class="clear"></div>
+    <p>Used Firefox for testing</p>
+    <footer>©2019 - &lt;Eberechi Ogunedo&gt;</footer> 
+       
+    <script src="info.js"></script>
+  </body>
+</html>
